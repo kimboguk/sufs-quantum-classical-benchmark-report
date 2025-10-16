@@ -781,20 +781,6 @@
                     </ul>
                 </div>
 
-                <div class="insight-box" style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); border-left-color: #ff9800;">
-                    <h4 style="color: #e65100;">⚠️ Classical 최적화의 한계</h4>
-                    <p style="margin-bottom: 10px;">
-                        Classical Max Sharpe 최적화가 낮은 성과를 보인 이유는 
-                        <strong>국소 최적해(Local Optima) 문제</strong> 때문입니다:
-                    </p>
-                    <ul>
-                        <li>CVXPY의 Convex solver(ECOS/SCS)가 제한된 해공간만 탐색</li>
-                        <li>초기값(equal weight)에서 시작하여 가까운 국소해로 수렴</li>
-                        <li>채권을 충분히 활용하지 못하는 차선책 포트폴리오 생성</li>
-                        <li>Gradient 기반 최적화의 근본적 한계</li>
-                    </ul>
-                </div>
-
                 <div class="insight-box" style="background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); border-left-color: #2196f3;">
                     <h4 style="color: #0d47a1;">✨ Quantum Annealing의 실용적 가치</h4>
                     <p><strong>본 연구는 양자 최적화의 실제 금융 응용 가능성을 입증합니다:</strong></p>
@@ -842,7 +828,7 @@
                     <h3>📊 종합 평가</h3>
                     <p style="margin-bottom: 15px; font-size: 1.05em; line-height: 1.8;">
                         본 분석은 <strong>동일한 목적함수(Max Sharpe Ratio)를 사용한 공정한 비교</strong>를 통해 
-                        양자 최적화의 실질적 우위를 입증했습니다. 
+                        포트폴리오 최적화에서 양자 컴퓨팅의 실질적 응용 가능성를 입증했습니다. 
                         Classical 최적화가 국소 최적해에 갇혀 차선책을 제시한 반면, 
                         Quantum Annealing은 광범위한 해공간 탐색을 통해 
                         <strong>진정한 글로벌 최적해에 가까운 포트폴리오</strong>를 발견했습니다.
